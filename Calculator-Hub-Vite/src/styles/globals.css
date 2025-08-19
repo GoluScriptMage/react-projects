@@ -1,0 +1,340 @@
+/* Tailwind CSS base styles with custom configuration */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Main app background */
+    --bg-primary: #0f0f0f;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #2a2a2a;
+
+    /* Text */
+    --text-primary: #ffffff;
+    --text-secondary: #d1d5db;
+    --text-muted: #9ca3af;
+
+    /* Border */
+    --border-primary: #374151;
+    --border-focus: #6366f1;
+
+    /* Calculator specific colors */
+    --love-50: #fdf2f8;
+    --love-100: #fce7f3;
+    --love-500: #ec4899;
+    --love-600: #db2777;
+    --love-700: #be185d;
+    --love-900: #831843;
+
+    --friendship-50: #f0fdfa;
+    --friendship-100: #ccfbf1;
+    --friendship-500: #14b8a6;
+    --friendship-600: #0d9488;
+    --friendship-700: #0f766e;
+    --friendship-900: #134e4a;
+
+    --career-50: #faf5ff;
+    --career-100: #f3e8ff;
+    --career-500: #a855f7;
+    --career-600: #9333ea;
+    --career-700: #7e22ce;
+    --career-900: #581c87;
+
+    --personality-50: #fffbeb;
+    --personality-100: #fef3c7;
+    --personality-500: #f59e0b;
+    --personality-600: #d97706;
+    --personality-700: #b45309;
+    --personality-900: #92400e;
+  }
+
+  html {
+    @apply font-poppins scroll-smooth;
+  }
+
+  body {
+    @apply bg-gray-900 text-white;
+    @apply min-h-screen antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-bold;
+  }
+
+  p {
+    @apply font-montserrat text-gray-300;
+  }
+}
+
+@layer components {
+  /* Button Base */
+  .btn {
+    @apply inline-flex items-center justify-center;
+    @apply font-medium rounded-lg;
+    @apply transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900;
+  }
+  
+  /* Button Sizes */
+  .btn-sm {
+    @apply px-3 py-1.5 text-sm;
+  }
+  
+  .btn-md {
+    @apply px-6 py-3 text-base;
+  }
+  
+  .btn-lg {
+    @apply px-8 py-4 text-lg;
+  }
+
+  /* Calculator Gradient Buttons */
+  .btn-love {
+    @apply bg-gradient-to-r from-pink-600 to-rose-500;
+    @apply hover:shadow-lg hover:shadow-pink-500/20;
+    @apply active:from-pink-700 active:to-rose-600;
+  }
+  
+  .btn-friendship {
+    @apply bg-gradient-to-r from-teal-600 to-cyan-500;
+    @apply hover:shadow-lg hover:shadow-teal-500/20;
+    @apply active:from-teal-700 active:to-cyan-600;
+  }
+  
+  .btn-career {
+    @apply bg-gradient-to-r from-purple-600 to-violet-500;
+    @apply hover:shadow-lg hover:shadow-purple-500/20;
+    @apply active:from-purple-700 active:to-violet-600;
+  }
+  
+  .btn-personality {
+    @apply bg-gradient-to-r from-orange-500 to-amber-500;
+    @apply hover:shadow-lg hover:shadow-orange-500/20;
+    @apply active:from-orange-600 active:to-amber-600;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-gray-800 border border-gray-700 rounded-xl shadow-lg;
+    @apply transition-all duration-300;
+  }
+  
+  .card-header {
+    @apply mb-4;
+  }
+  
+  .card-body {
+    @apply mb-0;
+  }
+  
+  .card-footer {
+    @apply mt-4 pt-4 border-t border-gray-700;
+  }
+  
+  .card-title {
+    @apply text-xl font-bold text-white mb-2;
+  }
+  
+  .card-description {
+    @apply text-gray-300 leading-relaxed;
+  }
+
+  /* Calculator Theme Cards */
+  .theme-love {
+    @apply border-love-500/20 hover:border-love-500/40;
+  }
+  
+  .theme-friendship {
+    @apply border-friendship-500/20 hover:border-friendship-500/40;
+  }
+  
+  .theme-career {
+    @apply border-career-500/20 hover:border-career-500/40;
+  }
+  
+  .theme-personality {
+    @apply border-personality-500/20 hover:border-personality-500/40;
+  }
+
+  /* Form Elements */
+  .form-label {
+    @apply block text-sm font-medium text-gray-300 mb-1;
+  }
+  
+  .form-input {
+    @apply w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2.5;
+    @apply text-gray-100 placeholder-gray-400;
+    @apply focus:ring-2 focus:border-transparent;
+  }
+  
+  .form-select {
+    @apply w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2.5;
+    @apply text-gray-100;
+    @apply focus:ring-2 focus:border-transparent;
+  }
+
+  /* Progress Bar */
+  .progress-container {
+    @apply w-full bg-gray-700 rounded-full h-2;
+  }
+  
+  .progress-bar {
+    @apply h-2 rounded-full transition-all duration-500;
+  }
+  
+  .progress-love {
+    @apply bg-gradient-to-r from-pink-600 to-rose-500;
+  }
+  
+  .progress-friendship {
+    @apply bg-gradient-to-r from-teal-600 to-cyan-500;
+  }
+  
+  .progress-career {
+    @apply bg-gradient-to-r from-purple-600 to-violet-500;
+  }
+  
+  .progress-personality {
+    @apply bg-gradient-to-r from-orange-500 to-amber-500;
+  }
+
+  /* Question Cards */
+  .question-card {
+    @apply bg-gray-800 border border-gray-700 rounded-xl p-6 mb-6;
+  }
+  
+  .question-text {
+    @apply text-xl font-semibold text-white mb-6;
+  }
+  
+  .option-grid {
+    @apply grid gap-4 grid-cols-1 md:grid-cols-2;
+  }
+  
+  .option-button {
+    @apply w-full bg-gray-700 hover:bg-gray-600 border border-gray-600;
+    @apply p-4 rounded-lg text-left text-white;
+    @apply transition-all duration-200;
+  }
+  
+  .option-button.selected {
+    @apply border-2;
+  }
+
+  /* Love specific options */
+  .option-button.selected.theme-love {
+    @apply border-love-500 bg-love-500/10;
+  }
+  
+  /* Friendship specific options */
+  .option-button.selected.theme-friendship {
+    @apply border-friendship-500 bg-friendship-500/10;
+  }
+  
+  /* Career specific options */
+  .option-button.selected.theme-career {
+    @apply border-career-500 bg-career-500/10;
+  }
+  
+  /* Personality specific options */
+  .option-button.selected.theme-personality {
+    @apply border-personality-500 bg-personality-500/10;
+  }
+
+  /* Results Display */
+  .result-score {
+    @apply text-6xl font-quicksand font-bold;
+  }
+  
+  .result-title {
+    @apply text-2xl font-bold mb-4;
+  }
+  
+  .result-description {
+    @apply mb-6 text-gray-300;
+  }
+  
+  .result-love .result-score {
+    @apply bg-gradient-to-r from-pink-600 to-rose-500 bg-clip-text text-transparent;
+  }
+  
+  .result-friendship .result-score {
+    @apply bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent;
+  }
+  
+  .result-career .result-score {
+    @apply bg-gradient-to-r from-purple-600 to-violet-500 bg-clip-text text-transparent;
+  }
+  
+  .result-personality .result-score {
+    @apply bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  /* Gradient Text */
+  .text-gradient-love {
+    @apply bg-gradient-to-r from-pink-600 to-rose-500 bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-friendship {
+    @apply bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-career {
+    @apply bg-gradient-to-r from-purple-600 to-violet-500 bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-personality {
+    @apply bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent;
+  }
+
+  /* Glow Effects */
+  .glow-love {
+    @apply shadow-lg shadow-pink-500/20;
+  }
+  
+  .glow-friendship {
+    @apply shadow-lg shadow-teal-500/20;
+  }
+  
+  .glow-career {
+    @apply shadow-lg shadow-purple-500/20;
+  }
+  
+  .glow-personality {
+    @apply shadow-lg shadow-orange-500/20;
+  }
+
+  /* Animation Utilities */
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+/* Custom Animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

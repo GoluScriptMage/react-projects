@@ -1,0 +1,301 @@
+{
+  "love": [
+    {
+      "id": "love_numb_1",
+      "question": "Someone says \"I miss you 😔\" but {name} just stares at the screen. What's going through your mind?",
+      "englishHint": "What do you think when someone misses you but you feel nothing?",
+      "options": [
+        { "id": "a", "text": "\"I don't feel anything, should I pretend?\" 🎭", "points": 1 },
+        { "id": "b", "text": "\"Do I even miss people anymore?\" 🤔", "points": 2 },
+        { "id": "c", "text": "\"Cute... but I need space.\" 🧊", "points": 3 },
+        { "id": "d", "text": "\"I wanna reply, but I just... don't.\" 📱", "points": 2 }
+      ],
+      "scoreTag": "Emotional Numbness"
+    },
+    {
+      "id": "love_numb_2",
+      "question": "What's {name}'s idea of love these days?",
+      "englishHint": "How do you currently view the concept of love?",
+      "options": [
+        { "id": "a", "text": "Practical, respectful and chill. 🤝", "points": 4 },
+        { "id": "b", "text": "Full of passion and chaos! 🔥", "points": 3 },
+        { "id": "c", "text": "Something I'm not sure I believe in anymore. 🥀", "points": 1 },
+        { "id": "d", "text": "Quiet companionship, no drama. 🧘", "points": 2 }
+      ],
+      "scoreTag": "Love Perspective"
+    },
+    {
+      "id": "love_numb_3",
+      "question": "{name} is always texting first in a situationship. You...?",
+      "englishHint": "What do you do when you're always initiating contact?",
+      "options": [
+        { "id": "a", "text": "Stop. Let them miss you. 🛑", "points": 3 },
+        { "id": "b", "text": "Keep texting — you crave closure. 📲", "points": 1 },
+        { "id": "c", "text": "Ghost them back like a pro. 👻", "points": 2 },
+        { "id": "d", "text": "Send a meme and emotionally detach. 🎮", "points": 4 }
+      ],
+      "scoreTag": "One-sided Relationship"
+    },
+    {
+      "id": "love_numb_4",
+      "question": "{name} gets mixed signals from someone. Your usual response?",
+      "englishHint": "How do you handle inconsistent behavior from potential partners?",
+      "options": [
+        { "id": "a", "text": "Overthink every interaction for hidden meanings 🔍", "points": 1 },
+        { "id": "b", "text": "Call them out directly - \"What are we?\" 📣", "points": 3 },
+        { "id": "c", "text": "Match their energy - hot and cold right back 🧊🔥", "points": 2 },
+        { "id": "d", "text": "Walk away - life's too short for confusion 👋", "points": 4 }
+      ],
+      "scoreTag": "Mixed Signals Response"
+    },
+    {
+      "id": "love_numb_5",
+      "question": "After years together, {name} realizes the spark is gone. You:",
+      "englishHint": "How do you respond to a relationship that has lost its excitement?",
+      "options": [
+        { "id": "a", "text": "Accept it as normal - real love isn't just excitement 🧠", "points": 4 },
+        { "id": "b", "text": "Plan surprise dates to rekindle the flame 🔥", "points": 3 },
+        { "id": "c", "text": "Wonder if you should just move on 🚶", "points": 1 },
+        { "id": "d", "text": "Start overthinking if you ever truly felt anything 🤔", "points": 2 }
+      ],
+      "scoreTag": "Lost Spark Response"
+    },
+    {
+      "id": "love_numb_6",
+      "question": "{name} reconnects with an ex. The first feeling is:",
+      "englishHint": "What do you feel when unexpectedly connecting with a former partner?",
+      "options": [
+        { "id": "a", "text": "Nothing - just like checking time on a broken clock ⏰", "points": 1 },
+        { "id": "b", "text": "Nostalgic butterflies with caution tape around them 🦋", "points": 3 },
+        { "id": "c", "text": "Mild curiosity, like watching a movie you've already seen 🎬", "points": 2 },
+        { "id": "d", "text": "Clarity about how much you've both changed 🔍", "points": 4 }
+      ],
+      "scoreTag": "Ex Reconnection"
+    }
+  ],
+  
+  "friendship": [
+    {
+      "id": "friend_dry_1",
+      "question": "{name}'s \"best friend\" talks only when they need help. You...?",
+      "englishHint": "What do you do when friends only contact you for favors?",
+      "options": [
+        { "id": "a", "text": "Help, but it stings. 💉", "points": 2 },
+        { "id": "b", "text": "Play dumb. Let them chase. 🙃", "points": 3 },
+        { "id": "c", "text": "Say \"bro I'm not your backup charger.\" 🔋", "points": 4 },
+        { "id": "d", "text": "Fade out slowly, no drama. 🌫️", "points": 1 }
+      ],
+      "scoreTag": "One-sided Friendship"
+    },
+    {
+      "id": "friend_dry_2",
+      "question": "Everyone made a group trip plan. {name} wasn't invited. You...?",
+      "englishHint": "How do you react when excluded from group plans?",
+      "options": [
+        { "id": "a", "text": "Laugh it off — you're used to it. 😂", "points": 2 },
+        { "id": "b", "text": "Feel weirdly numb. 😶", "points": 1 },
+        { "id": "c", "text": "Roast them in your head. 🔥", "points": 3 },
+        { "id": "d", "text": "Make solo plans like a legend. 🌟", "points": 4 }
+      ],
+      "scoreTag": "Exclusion Response"
+    },
+    {
+      "id": "friend_dry_3",
+      "question": "{name} realizes it's been months since you laughed hard with a friend.",
+      "englishHint": "How do you feel when you notice you haven't had genuine fun with friends lately?",
+      "options": [
+        { "id": "a", "text": "Maybe I've changed... 🦋", "points": 3 },
+        { "id": "b", "text": "I just want one real friend. 🫂", "points": 4 },
+        { "id": "c", "text": "Who cares? I'm too busy. 📅", "points": 1 },
+        { "id": "d", "text": "This is getting sad 😶‍🌫️", "points": 2 }
+      ],
+      "scoreTag": "Friendship Quality"
+    },
+    {
+      "id": "friend_dry_4",
+      "question": "{name}'s group chat is full of forwarded memes but no real talk. You:",
+      "englishHint": "How do you handle superficial group conversations?",
+      "options": [
+        { "id": "a", "text": "Keep it light, deep talk is overrated 🎭", "points": 2 },
+        { "id": "b", "text": "Drop a personal question and see who responds 🎣", "points": 4 },
+        { "id": "c", "text": "Leave on read, check back next week 👀", "points": 1 },
+        { "id": "d", "text": "Try reaching out to one person privately 💬", "points": 3 }
+      ],
+      "scoreTag": "Depth Seeking"
+    },
+    {
+      "id": "friend_dry_5",
+      "question": "{name} meets an old friend after years. The connection feels:",
+      "englishHint": "How do reunions with old friends typically feel to you?",
+      "options": [
+        { "id": "a", "text": "Awkward - we've become strangers with memories 👥", "points": 1 },
+        { "id": "b", "text": "Nostalgic but shallow - can't recreate the past 📸", "points": 2 },
+        { "id": "c", "text": "Surprisingly comfortable - true bonds never break 🔄", "points": 4 },
+        { "id": "d", "text": "Interesting - comparing life paths like characters in a show 📺", "points": 3 }
+      ],
+      "scoreTag": "Long-term Connection"
+    },
+    {
+      "id": "friend_dry_6",
+      "question": "{name} is social battery depleted but friends are texting. You:",
+      "englishHint": "How do you handle social demands when emotionally drained?",
+      "options": [
+        { "id": "a", "text": "Reply with minimal effort - one word answers 🔤", "points": 2 },
+        { "id": "b", "text": "Say you're busy when you're just tired 🥱", "points": 3 },
+        { "id": "c", "text": "Turn off notifications and recharge guilt-free 🔋", "points": 4 },
+        { "id": "d", "text": "Force yourself to engage - FOMO is worse 😬", "points": 1 }
+      ],
+      "scoreTag": "Social Energy Management"
+    }
+  ],
+
+  "career": [
+    {
+      "id": "career_chill_1",
+      "question": "Everyone's rushing to succeed. {name} is...",
+      "englishHint": "What's your approach to career advancement compared to others?",
+      "options": [
+        { "id": "a", "text": "Taking my time — chill growth. 🌱", "points": 3 },
+        { "id": "b", "text": "Vibing with zero guilt. 😎", "points": 2 },
+        { "id": "c", "text": "Thinking a lot, doing little 😅", "points": 1 },
+        { "id": "d", "text": "Building slow but solid. 🧱", "points": 4 }
+      ],
+      "scoreTag": "Career Pace"
+    },
+    {
+      "id": "career_chill_2",
+      "question": "A job interviewer asks \"{name}, where do you see yourself in 5 years?\" You say...?",
+      "englishHint": "How do you respond to the classic 5-year plan question?",
+      "options": [
+        { "id": "a", "text": "\"With better snacks.\" 🍪", "points": 2 },
+        { "id": "b", "text": "\"Freelancing in my PJs.\" 🧦", "points": 3 },
+        { "id": "c", "text": "\"Hopefully…alive.\" 💀", "points": 1 },
+        { "id": "d", "text": "\"Running my own thing, duh.\" 💼", "points": 4 }
+      ],
+      "scoreTag": "Future Vision"
+    },
+    {
+      "id": "career_chill_3",
+      "question": "{name} wants to build an empire but hasn't opened your laptop in 2 days. You...?",
+      "englishHint": "How do you handle procrastination despite big ambitions?",
+      "options": [
+        { "id": "a", "text": "Tell myself I'm resting before greatness. 💤", "points": 3 },
+        { "id": "b", "text": "Cry a little, scroll a lot. 📱", "points": 1 },
+        { "id": "c", "text": "Say \"mañana, baby.\" 🌴", "points": 2 },
+        { "id": "d", "text": "Sketch it mentally and call it \"planning.\" 🧠", "points": 4 }
+      ],
+      "scoreTag": "Productive Procrastination"
+    },
+    {
+      "id": "career_chill_4",
+      "question": "When people brag about being busy 24/7, {name} thinks:",
+      "englishHint": "What's your reaction to hustle culture?",
+      "options": [
+        { "id": "a", "text": "\"Weird flex but ok\" - balance is better 🧘", "points": 4 },
+        { "id": "b", "text": "\"Maybe I should work harder?\" *mild panic* 😰", "points": 2 },
+        { "id": "c", "text": "\"That's the dream!\" - admire the grind 💯", "points": 3 },
+        { "id": "d", "text": "\"Sounds exhausting\" - not my vibe 🥱", "points": 1 }
+      ],
+      "scoreTag": "Hustle Culture View"
+    },
+    {
+      "id": "career_chill_5",
+      "question": "{name} got rejected from a job application. Your response?",
+      "englishHint": "How do you handle career disappointments?",
+      "options": [
+        { "id": "a", "text": "\"Their loss\" - confidence unshaken 💪", "points": 4 },
+        { "id": "b", "text": "Analyze what went wrong for next time 🔍", "points": 3 },
+        { "id": "c", "text": "Feel defeated but apply to 10 more anyway 📑", "points": 2 },
+        { "id": "d", "text": "Question if this career path is even right 🤷", "points": 1 }
+      ],
+      "scoreTag": "Rejection Resilience"
+    },
+    {
+      "id": "career_chill_6",
+      "question": "Colleagues are competitive but {name} is just vibing. This makes you feel:",
+      "englishHint": "How do you feel about not participating in workplace competition?",
+      "options": [
+        { "id": "a", "text": "Zen - my path is my own 🧘", "points": 4 },
+        { "id": "b", "text": "Smart - watching them burn out while I chill 🧠", "points": 3 },
+        { "id": "c", "text": "Occasionally insecure but mostly peaceful 🌊", "points": 2 },
+        { "id": "d", "text": "Like I'm missing something important 😬", "points": 1 }
+      ],
+      "scoreTag": "Competitive Spirit"
+    }
+  ],
+
+  "personality": [
+    {
+      "id": "personality_chaos_1",
+      "question": "People call {name} calm. But inside you're...?",
+      "englishHint": "What's your internal state compared to how others see you?",
+      "options": [
+        { "id": "a", "text": "Screaming. Silently. 😱", "points": 2 },
+        { "id": "b", "text": "Running 10 thoughts per second. 🏃‍♂️", "points": 3 },
+        { "id": "c", "text": "Observing everything like a hawk. 🦅", "points": 4 },
+        { "id": "d", "text": "Calm. For real. I promise. 😌", "points": 1 }
+      ],
+      "scoreTag": "Inner State"
+    },
+    {
+      "id": "personality_chaos_2",
+      "question": "{name} texts like a romantic poet but talks like a meme. What gives?",
+      "englishHint": "Why is there a disconnect between your written and spoken communication?",
+      "options": [
+        { "id": "a", "text": "I switch depending on the vibe. 🔄", "points": 3 },
+        { "id": "b", "text": "Online me = drama. Real me = shy. 🎭", "points": 2 },
+        { "id": "c", "text": "It's all performance, babe. 🎬", "points": 1 },
+        { "id": "d", "text": "I'm just built weird. 🤷", "points": 4 }
+      ],
+      "scoreTag": "Communication Duality"
+    },
+    {
+      "id": "personality_chaos_3",
+      "question": "What's {name}'s real 'default mood'?",
+      "englishHint": "How would you describe your baseline emotional state?",
+      "options": [
+        { "id": "a", "text": "Tired but productive. 💻", "points": 3 },
+        { "id": "b", "text": "Playful but deep. 🎮", "points": 4 },
+        { "id": "c", "text": "Peaceful but overthinking. 🧘", "points": 2 },
+        { "id": "d", "text": "Confused but confident. 😎", "points": 1 }
+      ],
+      "scoreTag": "Default Mood"
+    },
+    {
+      "id": "personality_chaos_4",
+      "question": "{name} enters a room full of strangers. First instinct?",
+      "englishHint": "What's your immediate reaction in unfamiliar social settings?",
+      "options": [
+        { "id": "a", "text": "Find a corner and observe the vibes 👀", "points": 2 },
+        { "id": "b", "text": "Head to the snacks/drinks - strategic position 🍕", "points": 3 },
+        { "id": "c", "text": "Introduce myself to someone - anxiety inside 🎭", "points": 4 },
+        { "id": "d", "text": "Check phone, pretend I'm busy texting 📱", "points": 1 }
+      ],
+      "scoreTag": "Social Adaptation"
+    },
+    {
+      "id": "personality_chaos_5",
+      "question": "{name} has 10 different hobbies but masters none. This makes you feel:",
+      "englishHint": "How do you feel about being a jack of all trades?",
+      "options": [
+        { "id": "a", "text": "Versatile and interesting - life's too short to pick one 🌈", "points": 4 },
+        { "id": "b", "text": "Scattered - wish I could focus on just one thing 🧩", "points": 1 },
+        { "id": "c", "text": "It's not about mastery, it's about enjoyment 🎨", "points": 3 },
+        { "id": "d", "text": "I'm collecting skills for my future masterpiece 🔮", "points": 2 }
+      ],
+      "scoreTag": "Interest Diversity"
+    },
+    {
+      "id": "personality_chaos_6",
+      "question": "Someone describes {name} to others. They'd probably say you're:",
+      "englishHint": "How do you think others perceive your personality?",
+      "options": [
+        { "id": "a", "text": "\"Hard to read but worth the effort\" 📖", "points": 3 },
+        { "id": "b", "text": "\"Different person every time you meet them\" 🎭", "points": 2 },
+        { "id": "c", "text": "\"Surprisingly calm considering what's in their head\" 🧠", "points": 4 },
+        { "id": "d", "text": "\"Fun but exhausting to keep up with\" ⚡", "points": 1 }
+      ],
+      "scoreTag": "Perceived Identity"
+    }
+  ]
+}

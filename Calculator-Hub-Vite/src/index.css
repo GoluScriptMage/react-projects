@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply dark; /* Enable dark mode by default */
+  }
+  
+  body {
+    @apply bg-gray-900 text-white font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200 
+           hover:scale-105 active:scale-95;
+  }
+  
+  .btn-love {
+    @apply btn-primary bg-love-gradient hover:shadow-lg hover:shadow-love-500/25;
+  }
+  
+  .btn-friendship {
+    @apply btn-primary bg-friendship-gradient hover:shadow-lg hover:shadow-friendship-500/25;
+  }
+  
+  .btn-career {
+    @apply btn-primary bg-career-gradient hover:shadow-lg hover:shadow-career-500/25;
+  }
+  
+  .btn-personality {
+    @apply btn-primary bg-personality-gradient hover:shadow-lg hover:shadow-personality-500/25;
+  }
+  
+  .card {
+    @apply bg-gray-800 border border-gray-700 rounded-xl p-6 
+           shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .calculator-card {
+    @apply card hover:scale-105 transition-transform duration-300 
+           cursor-pointer group;
+  }
+}
