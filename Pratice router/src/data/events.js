@@ -1,0 +1,102 @@
+// Sample events data (4 events) – replace or extend later as needed.
+// Each event includes core descriptive + meta fields.
+
+const events = [
+  {
+    id: "evt-001",
+    title: "Frontend Fusion Summit",
+    date: "2025-09-15T10:00:00Z",
+    endDate: "2025-09-15T16:00:00Z",
+    location: "Online / Live Stream",
+    category: "Conference",
+    description:
+      "A focused one‑day virtual summit covering modern React patterns, performance tuning, accessibility, and design systems integration.",
+    status: "scheduled",
+    organizer: "Fusion Tech Collective",
+    capacity: 500,
+    attendeesCount: 312,
+    price: 0,
+    currency: "USD",
+    image: "https://picsum.photos/seed/frontend/800/400",
+    tags: ["react", "performance", "a11y", "design-systems"],
+    agenda: [
+      { time: "10:00", topic: "Keynote: Future of Component Architectures" },
+      { time: "11:15", topic: "Accessible UI Patterns" },
+      { time: "13:00", topic: "Performance Deep Dive" },
+      { time: "15:00", topic: "Panel: DX vs UX" },
+    ],
+  },
+  {
+    id: "evt-002",
+    title: "Serverless Hack Night",
+    date: "2025-10-02T18:30:00Z",
+    endDate: "2025-10-02T22:00:00Z",
+    location: "Austin, TX / Hybrid",
+    category: "Hackathon",
+    description:
+      "An evening hack session exploring serverless edge runtimes, durable objects, and cost optimization strategies.",
+    status: "scheduled",
+    organizer: "Cloud Guild",
+    capacity: 120,
+    attendeesCount: 74,
+    price: 25,
+    currency: "USD",
+    image: "https://picsum.photos/seed/serverless/800/400",
+    tags: ["serverless", "edge", "cloud", "optimization"],
+    agenda: [
+      { time: "18:30", topic: "Introductions & Team Formation" },
+      { time: "19:00", topic: "API / Data Challenge Brief" },
+      { time: "21:30", topic: "Demos & Feedback" },
+    ],
+  },
+  {
+    id: "evt-003",
+    title: "Design Tokens Workshop",
+    date: "2025-11-05T14:00:00Z",
+    endDate: "2025-11-05T18:00:00Z",
+    location: "London, UK",
+    category: "Workshop",
+    description:
+      "Hands‑on workshop building a cross‑platform design token pipeline (web + mobile) with automation and governance best practices.",
+    status: "scheduled",
+    organizer: "UX Fabric Lab",
+    capacity: 60,
+    attendeesCount: 41,
+    price: 149,
+    currency: "GBP",
+    image: "https://picsum.photos/seed/tokens/800/400",
+    tags: ["design-tokens", "theming", "tooling", "automation"],
+    agenda: [
+      { time: "14:00", topic: "Token Strategy & Semantics" },
+      { time: "15:15", topic: "Build Pipeline Automation" },
+      { time: "16:30", topic: "Cross-platform Delivery" },
+      { time: "17:30", topic: "Q&A / Wrap" },
+    ],
+  },
+  {
+    id: "evt-004",
+    title: "Observability & Tracing Deep Dive",
+    date: "2025-12-12T09:30:00Z",
+    endDate: "2025-12-12T15:30:00Z",
+    location: "Berlin, Germany",
+    category: "Seminar",
+    description:
+      "In‑depth seminar on distributed tracing, log correlation, real user monitoring, open telemetry pipelines, and SLO design.",
+    status: "scheduled",
+    organizer: "Infra Insights",
+    capacity: 150,
+    attendeesCount: 98,
+    price: 199,
+    currency: "EUR",
+    image: "https://picsum.photos/seed/observability/800/400",
+    tags: ["observability", "otel", "tracing", "sre"],
+    agenda: [
+      { time: "09:30", topic: "Tracing Fundamentals" },
+      { time: "11:00", topic: "Correlation & Context Propagation" },
+      { time: "13:00", topic: "SLO / Error Budgets" },
+      { time: "14:30", topic: "Pipeline Hardening" },
+    ],
+  },
+];
+
+export default events;
